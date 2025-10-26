@@ -1,4 +1,4 @@
-// import { Bookmark } from 'lucide-react'
+import { Bookmark } from 'lucide-react'
 const Card = (props) => {
 
     return (
@@ -6,7 +6,7 @@ const Card = (props) => {
             <div>
                 <div className="top">
                     <img src={props.brandLogo} alt="nachioooooo" />
-                    <button>Save </button>
+                    <button>Save <Bookmark size={10} /></button>
                 </div>
                 <div className="center">
                     <h3>{props.company} <span>{props.datePosted}</span></h3>
