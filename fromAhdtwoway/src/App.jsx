@@ -7,6 +7,8 @@ const App = () => {
   const submitHandeler = (event) => {
     event.preventDefault();
     console.log("Form Submitted", title);
+
+    setTitle("");
   }
 
   return (
